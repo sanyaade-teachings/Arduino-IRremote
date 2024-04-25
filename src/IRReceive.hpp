@@ -1225,7 +1225,7 @@ void printActiveIRProtocols(Print *aSerial) {
     aSerial->print(F("Lego Power Functions, "));
 #endif
 #if defined(DECODE_BOSEWAVE)
-    aSerial->print(F("Bosewave , "));
+    aSerial->print(F("Bosewave, "));
 #endif
 #if defined(DECODE_MAGIQUEST)
     aSerial->print(F("MagiQuest, "));
